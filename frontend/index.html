@@ -4,20 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code Export Interface</title>
-    <!-- Google Fonts for Kumbh Sans and Nunito Sans -->
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;600&family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Initial Page -->
     <div class="page-container">
         <button class="export-button" onclick="openModal()">EXPORT CODE</button>
     </div>
-
-    <!-- Modal -->
     <div class="modal-overlay" id="modalOverlay">
         <div class="modal">
-            <!-- Header -->
             <div class="modal-header">
                 <div class="modal-title-section">
                     <h2>Code Export</h2>
@@ -31,7 +26,6 @@
                 </button>
             </div>
 
-            <!-- Tabs -->
             <div class="tabs-container">
                 <div class="tabs">
                     <button class="tab-button active" id="htmlTab" onclick="switchTab('html')">HTML & CSS</button>
@@ -39,11 +33,8 @@
                 </div>
             </div>
 
-            <!-- Tab Content -->
             <div class="tab-content">
-                <!-- HTML & CSS Tab Panel -->
                 <div class="tab-panel active" id="htmlPanel">
-                    <!-- Export Type Card -->
                     <div class="export-type-card">
                         <div class="export-type-info">
                             <div class="export-icon">
@@ -54,7 +45,6 @@
                         <div class="zip-label">Zipped</div>
                     </div>
 
-                    <!-- Options -->
                     <div class="options">
                         <div class="option">
                             <div class="custom-checkbox">
@@ -72,13 +62,10 @@
                         </div>
                     </div>
 
-                    <!-- Download Button -->
                     <button class="download-button">Download HTML CSS Project</button>
                 </div>
 
-                <!-- Next.js Tab Panel -->
                 <div class="tab-panel" id="nextjsPanel">
-                    <!-- Export Type Card -->
                     <div class="export-type-card">
                         <div class="export-type-info">
                             <div class="export-icon">
@@ -88,7 +75,6 @@
                         </div>
                     </div>
 
-                    <!-- Options -->
                     <div class="options">
                         <div class="option">
                             <div class="custom-checkbox">
@@ -113,7 +99,6 @@
                         </div>
                     </div>
 
-                    <!-- Download Button -->
                     <button class="download-button">Download Next JS Project</button>
                 </div>
             </div>
